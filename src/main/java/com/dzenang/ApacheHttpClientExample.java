@@ -44,4 +44,9 @@ public class ApacheHttpClientExample {
             System.out.println("Error while parsing the response: " + e.getMessage());
         }
     }
+
+    public static void main(String[] args) {
+//                ApacheHttpClientExample.getExample();
+        //        ApacheHttpClientExample.postExample();
+    }
 }

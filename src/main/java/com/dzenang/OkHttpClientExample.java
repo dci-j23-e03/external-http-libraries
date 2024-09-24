@@ -34,4 +34,9 @@ public class OkHttpClientExample {
             System.out.println("Error executing request: " + e.getMessage());
         }
     }
+
+    public static void main(String[] args) {
+        OkHttpClientExample.getExample();
+//        OkHttpClientExample.postExample();
+    }
 }
